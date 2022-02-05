@@ -1,0 +1,181 @@
+<!DOCTYPE hyml>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>photograph</title>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <style>
+            *
+            {
+                margin: 0;
+                font-family: 'Quicksand', sans-serif;
+            }
+            body
+            {
+                background-color:rgb(235, 230, 227);
+                overflow: auto;
+                overflow-x:hidden;
+            }
+            header
+            {
+                z-index: 20;
+                position: fixed;
+                width: 100%;
+                height: 120px;
+                background-color: rgb(221, 221, 221);
+                border-radius: 0 0 30px 30px; 
+                box-shadow: 2px 2px 2px rgb(184, 184, 184);
+            }
+            h1
+            {
+                font-size: 60px;
+                text-align: center;
+                margin-top: 15px;
+            }
+            ul li
+            {
+                list-style: none;
+                float: left;
+                margin: 50px;
+                
+            }
+            #menu
+            {
+                position: fixed;
+                right: 20px;
+                top: 35px;
+                font-size: 20px;
+            }
+            a
+            {
+                text-decoration: none;
+                color: rgb(63, 63, 63);
+            }
+            article img
+            {
+                z-index: 10;
+                position: relative;
+                top: 100px;
+                margin: 30px;
+                width: 300px;
+                height: 300px;
+                object-fit: contain;
+                background-color: rgb(36, 36, 36);
+                box-shadow: 2px 2px 2px rgb(184, 184, 184);
+                transition: 0.2s;
+            }
+            article img:hover
+            {
+                transform: scale(1.05);
+            }
+            .img
+            {
+                text-align: center;
+            }
+            .text
+            {
+                font-size: 30px;
+                color:rgb(63, 63, 63);
+                position: relative;
+                left: 100px;
+                top: 90px;
+                border-bottom: solid;
+                border-bottom-color:rgb(190, 190, 190);
+                width: 88%;
+                
+            }
+            .border
+            {
+                width: 100%;
+                height: 150px;
+            }
+            footer
+            {
+                z-index: 20;
+                position: fixed;
+                bottom: 0px;
+                width: 100%;
+                height: 50px;
+                border-top-style: solid;
+                border-width: 1px;
+                border-color: rgb(190, 190, 190);
+                background-color:rgb(235, 230, 227);
+            }
+            #footer_text
+            {
+                color: gray;
+                font-size: 80%;
+                margin-top: 15px;
+                text-align: center;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <span><a href="web.html"><h1>Photograph</h1></a></span>
+            <div id="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#view">view</a></li>
+                        <li><a href="#animal">animal</a></li>
+                        <li><a href="#food">food</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+            <article>
+                <div class="border"></div>
+                <div class=text id="view"><h2>view</h2></div>
+                <div class="img">
+                    <img src="view/v1.jpg">
+                    <img src="view/v2.jpg">
+                    <img src="view/v3.jpg">
+                    <img src="view/v4.jpg">
+                    <img src="view/v5.jpg">
+                    <img src="view/v6.jpg">
+                    <img src="view/v7.jpg">
+                    <img src="view/v8.jpg">
+                    <img src="view/v9.jpg">
+                    <img src="view/v10.jpg">
+                    <img src="view/v11.jpg">
+                    <img src="view/v12.jpg">
+                </div>
+                <div class="border"></div>
+            </article>
+            <article>
+                <div class=text id="animal"><h2>animal</h2></div>
+                <div class="img">
+                    <img src="animal/a1.jpg">
+                    <img src="animal/a2.jpg">
+                    <img src="animal/a3.jpg">
+                    <img src="animal/a4.jpg">
+                    <img src="animal/a5.jpg">
+                    <img src="animal/a6.jpg">
+                    <img src="animal/a7.jpg">
+                    <img src="animal/a8.jpg">
+                    <img src="animal/a9.jpg">
+                </div>
+                <div class="border"></div>
+            </article>
+            <article>
+                <div class=text id="food"><h2>food</h2></div>
+                <div class="img">
+                    <img src="food/f1.jpg">
+                    <img src="food/f2.jpg">
+                    <img src="food/f3.jpg">
+                    <img src="food/f4.jpg">
+                    <img src="food/f5.jpg">
+                    <img src="food/f6.jpg">
+                    <img src="food/f7.jpg">
+                    <img src="food/f8.jpg">
+                    <img src="food/f9.jpg">
+                </div>
+                <div class="border"></div>
+            </article>
+        </section>
+        <footer>
+            <p id="footer_text">Copyright 2021. cocoder. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>

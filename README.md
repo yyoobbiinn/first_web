@@ -1,6 +1,8 @@
 # first_web
 
 HTML과 CSS만을 이용한 아주 간단한 웹페이지
+![K-009](https://user-images.githubusercontent.com/89966178/155881402-7e2c9778-4fb7-4bb0-a5f0-a4fad5748fca.png)
+![K-010](https://user-images.githubusercontent.com/89966178/155881406-af902e14-b005-4d12-a70c-90b8828ccfe7.png)
 
 ### 배경
 공부할 내용이 방대한 프론트엔드 분야에서 가장 효과적으로 공부하는 방법은 '배운 것을 이용하여 눈에 보이는 결과물 만들기'라고 생각한다.
